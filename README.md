@@ -3,7 +3,7 @@
 This repo contains the **analysis and visualization code** I wrote for analyzing  
 100,000+ package records in Denison University’s mailroom.
 
-For confidentiality, the real dataset is not included. Instead, you can generate or substitute your own CSVs to run the analysis pipeline and see the visualizations.
+For confidentiality, the real dataset is not included. Instead, you can generate or substitute your own CSVs from Pitney Bowes System to run the analysis pipeline and see the visualizations.
 
 ---
 
