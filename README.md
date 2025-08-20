@@ -1,16 +1,32 @@
-# Mailroom Analytics (Sanitized Demo)
+# Mailroom Analytics (Demo)
 
-This project demonstrates my work analyzing **100,000+ mailroom package records** at Denison University.  
-For confidentiality, the dataset here is synthetic (randomly generated), but the **code and analysis workflow** are identical to the original.
+This repo contains the **analysis and visualization code** I wrote for analyzing  
+100,000+ package records in Denison University’s mailroom.
 
-## Features
-- Cleaned and structured raw CSV data
-- Visualized delivery volume by month, carrier distribution, and weekday traffic
-- Proposed advanced analytics (class-year breakdown, package size trends, seasonal forecasting)
+For confidentiality, the real dataset is not included. Instead, you can generate or substitute your own CSVs to run the analysis pipeline and see the visualizations.
 
-## Tech Stack
-Python · Pandas · Matplotlib  
+---
 
-## Example Visualizations
-![Carrier Breakdown](assets/carrier_breakdown.png)
-![Monthly Volume](assets/monthly_volume.png)
+## 📂 Project Structure
+
+- `src/mailroomAnalysis.py` → data cleaning, aggregation, and export of counts
+- `src/mailroomViz.ipynb` → Jupyter notebook with visualizations (monthly, weekly, carrier trends)
+- `.gitignore` → ensures raw CSVs, reports, and private data are never committed
+
+---
+
+## 🛠️ Tech Stack
+
+Python (pandas, matplotlib, seaborn)
+
+Jupyter Notebook
+
+---
+
+### 🔒 Note
+
+This repository is a demo version.
+The real project was built on private university package records.
+All code here is authentic, but datasets in mailroomData/ are intentionally excluded.
+
+---
